@@ -11,7 +11,6 @@ A comprehensive implementation of a neural network from scratch for binary class
 - [Usage](#-usage)
 - [Model Architecture](#-model-architecture)
 - [Fine-tuning Guide](#-fine-tuning-guide)
-- [File Structure](#-file-structure)
 - [Results](#-results)
 - [Contributing](#-contributing)
 - [License](#-license)
@@ -77,7 +76,6 @@ pip install numpy pandas scikit-learn
 ### Clone Repository
 ```bash
 git clone https://github.com/yourusername/mushroom-neural-network.git
-cd mushroom-neural-network
 ```
 
 ## ⚡ Quick Start
@@ -89,10 +87,8 @@ cd mushroom-neural-network
    ```
 3. **Choose from the menu**:
    - Interactive Training Demo
-   - View Fine-tuning Tips
-   - Automated Hyperparameter Search
    - Test Reproducibility
-   - Analyze Incorrect Predictions
+   - Exit
 
 ## 💻 Usage
 
@@ -190,19 +186,6 @@ z₂ = W₂ · a₁ + b₂
 - Test accuracy > 90%
 - Small train/test accuracy gap
 
-## 📁 File Structure
-
-```
-mushroom-neural-network/
-├── README.md                    # This file
-├── mushroom_tiny_nn.py         # Main neural network implementation
-├── mushroom_train.csv          # Training dataset
-├── mushroom_test.csv           # Testing dataset
-├── mushroom_test2.csv          # Additional test set
-├── subset.csv                  # Data subset for experiments
-├── removed.csv                 # Removed data portion
-└── incorrect_predictions.csv    # Misclassified samples (generated)
-```
 
 ## 📈 Results
 
@@ -300,10 +283,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Author**: [Your Name]
-- **Email**: [your.email@example.com]
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Issues**: [Project Issues](https://github.com/yourusername/mushroom-neural-network/issues)
+- **Author**: Siyabonga Mbuyisa
+- **Email**: siyabongambuyisa7@gmail.com
 
 ---
 
